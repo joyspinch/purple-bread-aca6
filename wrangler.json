@@ -1,0 +1,30 @@
+{
+  "name": "purple-bread-aca6",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "empty-bar-c259-d1",
+      "database_id": "58b00620-d4b6-4572-870c-81f1df8e6802"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "purple-bread-aca6-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
